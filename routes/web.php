@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/landing-pages/index');
 });
+
+
+Route::view('/Clubs', 'pages/landing-pages/clubs');
+Route::view('/Managers', 'pages/lagind-pages/managers');
+Route::view('/Players', 'pages/lagind-pages/players');
+Route::view('/Stadiums', 'pages/lagind-pages/stadiums');

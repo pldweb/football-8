@@ -4,7 +4,7 @@
 
   @include('include.meta')
   
-  <title>@yield('title')| Landing Page</title>
+  <title>@yield('title') | Landing Page</title>
 
 
   {{-- Favicon --}}
