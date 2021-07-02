@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 
-Route::view('/Clubs', 'pages/landing-pages/clubs');
-Route::view('/Managers', 'pages/lagind-pages/managers');
-Route::view('/Players', 'pages/lagind-pages/players');
-Route::view('/Stadiums', 'pages/lagind-pages/stadiums');
+Route::view('/clubs', 'pages/landing-pages/clubs');
+Route::view('/managers', 'pages/landing-pages/managers');
+Route::view('/players', 'pages/landing-pages/players');
+Route::view('/stadiums', 'pages/landing-pages/stadiums');
