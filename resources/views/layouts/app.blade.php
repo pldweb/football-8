@@ -20,11 +20,15 @@
 
 </head>
 <body>
+  <div class="container-xxl mx-auto p-0  position-relative header-2-2" style="font-family: 'Poppins', sans-serif">
+   
+    @include('include.header')
+      @yield('content')
 
-  @include('include.header')
-    @yield('content')
-  @include('include.footer')
 
+    @include('include.footer')
+
+ 
 
   @stack('before-script')
   {{-- Script --}}
