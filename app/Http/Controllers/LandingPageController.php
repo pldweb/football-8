@@ -6,6 +6,50 @@ use Illuminate\Http\Request;
 
 class LandingPageController extends Controller
 {
+
+
+    public function clubs(){
+
+        return view('pages.landing-pages.clubs');
+
+    }
+
+
+    public function managers(){
+
+        return view('pages.landing-pages.managers');
+    }
+
+
+    public function players(){
+        return view('pages.landing-pages.players');
+    }
+
+
+    public function stadiums(){
+        return view('pages.landing-pages.stadiums');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * Display a listing of the resource.
      *
